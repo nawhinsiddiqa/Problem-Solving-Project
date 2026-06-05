@@ -28,3 +28,48 @@ int main() {
 
     return 0;
 }
+
+                            Magical tree
+          
+#include <stdio.h>
+
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    int width = N + 10;
+
+  
+    for(int i = 1; i <= width; i += 2) {
+
+        int space = (width - i) / 2;
+
+        for(int j = 0; j < space; j++) {
+            printf(" ");
+        }
+
+        for(int j = 0; j < i; j++) {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+
+    for(int i = 0; i < 5; i++) {
+
+        int space = (width - N) / 2;
+
+        for(int j = 0; j < space; j++) {
+            printf(" ");
+        }
+
+        for(int j = 0; j < N; j++) {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
