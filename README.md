@@ -1,5 +1,5 @@
 # Problem-Solving-Project
-Find the Missing Number
+###Find the Missing Number
 #include <stdio.h>
 
 int main() {
